@@ -10,7 +10,7 @@ function InfoBlurb() {
             GitHub Page
           </a>{" "}
           and{" "}
-          <a href="https://albertzevanescent.github.io/Athenion-Fan-Project/">
+          <a href="https://albertzevanescent.github.io/Athenion-Fan-Project">
             Game Page
           </a>
           .
