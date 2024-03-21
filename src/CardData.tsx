@@ -7,7 +7,7 @@ export default class CardData {
   attack: number = 1;
   health: number = 1;
   armor: number = 0;
-  image: string = "./../images/frames/Card_Blank.png";
+  image: string = "images/frames/Card_Blank.png";
   scale: number = 1;
   offsetX: number = 0;
   offsetY: number = 0;

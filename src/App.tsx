@@ -89,7 +89,7 @@ function App() {
   return (
     <div
       style={{
-        backgroundImage: "url(./../images/icons/BG.png)",
+        backgroundImage: "url(images/icons/BG.png)",
         height: "100vh",
         width: "100vw",
         backgroundPosition: "center",

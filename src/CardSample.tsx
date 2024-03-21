@@ -1,7 +1,7 @@
 import HorizontalGroup from "./components/HorizontalGroup";
 import DropdownForm from "./components/DropdownForm";
 import CardData from "./CardData";
-import sampleData from "../data/SampleCards.json";
+import sampleData from "../public/data/SampleCards.json";
 
 interface Props {
   setSample: (item: CardData) => void;

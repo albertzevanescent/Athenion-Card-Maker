@@ -39,15 +39,15 @@ const textNewLine = "\n";
 
 const fontDIN2014Bold = new FontFace(
   "DIN2014-Bold",
-  "url(../fonts/DIN2014-Bold.ttf)"
+  "url(fonts/DIN2014-Bold.ttf)"
 );
 const fontMaitreeBold = new FontFace(
   "Maitree-Bold",
-  "url(../fonts/Maitree-Bold.ttf)"
+  "url(fonts/Maitree-Bold.ttf)"
 );
 const fontMaitreeRegular = new FontFace(
   "Maitree-Regular",
-  "url(../fonts/Maitree-Regular.ttf)"
+  "url(fonts/Maitree-Regular.ttf)"
 );
 
 function setSampleImage(art: string) {
@@ -67,9 +67,9 @@ function setImage(art: string) {
 
 function setFrame(faction: string, rarity: string) {
   imageSave.cardFrame.src =
-    "../images/frames/Card_" + rarity + "_" + factionConv(faction) + ".png";
+    "images/frames/Card_" + rarity + "_" + factionConv(faction) + ".png";
   doneLoad--;
-  imageSave.cardBox.src = "../images/frames/Card_Box_" + rarity + "_Masked.png";
+  imageSave.cardBox.src = "images/frames/Card_Box_" + rarity + "_Masked.png";
   doneLoad--;
 }
 
@@ -459,17 +459,17 @@ function setImages() {
     imageSave.iconReward.onload =
       incDoneLoad;
 
-  imageSave.iconAttack.src = "./../images/icons/Symbol_Attack.png";
-  imageSave.iconHealth.src = "./../images/icons/Symbol_Health.png";
-  imageSave.iconArmor.src = "./../images/icons/Symbol_Armor.png";
-  imageSave.iconArrow.src = "./../images/icons/Symbol_Arrow.png";
-  imageSave.iconMana.src = "./../images/icons/Symbol_Mana.png";
-  imageSave.iconQuest.src = "./../images/icons/Symbol_Quest.png";
-  imageSave.iconReward.src = "./../images/icons/Symbol_Reward.png";
-  imageSave.cardFrame.src = "./../images/frames/Card_Common_Fire.png";
-  imageSave.cardBox.src = "./../images/frames/Card_Box_Common_Masked.png";
-  imageSave.cardMask.src = "./../images/frames/Card_Mask.png";
-  imageSave.cardArt.src = "./../images/frames/Card_Blank.png";
+  imageSave.iconAttack.src = "images/icons/Symbol_Attack.png";
+  imageSave.iconHealth.src = "images/icons/Symbol_Health.png";
+  imageSave.iconArmor.src = "images/icons/Symbol_Armor.png";
+  imageSave.iconArrow.src = "images/icons/Symbol_Arrow.png";
+  imageSave.iconMana.src = "images/icons/Symbol_Mana.png";
+  imageSave.iconQuest.src = "images/icons/Symbol_Quest.png";
+  imageSave.iconReward.src = "images/icons/Symbol_Reward.png";
+  imageSave.cardFrame.src = "images/frames/Card_Common_Fire.png";
+  imageSave.cardBox.src = "images/frames/Card_Box_Common_Masked.png";
+  imageSave.cardMask.src = "images/frames/Card_Mask.png";
+  imageSave.cardArt.src = "images/frames/Card_Blank.png";
 
   fontDIN2014Bold.load().then(() => {
     loadFont(fontDIN2014Bold);
